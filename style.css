@@ -280,7 +280,11 @@ section
 }
 #contact-info ul li{
     font-size: large;
-    margin-bottom: 10px;
+    display:flex;
+    align-items:center
+}
+#contact-info ul li i{
+    margin-right:10px;
 }
 #contact-info ul li:hover{
     color: #808080;
