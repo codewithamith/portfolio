@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/001.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio | Amit Kumar</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="/">
+                    Amit.Dev
+                </a>
+            </div>
+            <div id="main-menu">
+                <ol>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ol>
+            </div>
+            <div id="btn-hireme">
+                <button id="action-btn">Hire Me</button>
+                <i id="mobile-btn" class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="progress-line"></div>
+
+    <main id="main">
+        <div id="contact-popup">
+            <button id="close-btn"><i class="ri-close-line"></i></button>
+            <div id="contact-form">
+                <form action="https://formspree.io/f/mjvqqzoz" method="POST">
+
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    <input type="text" name="company" id="company" placeholder="Company's name">
+                    <textarea name="message" id="message" cols="48" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" id="send">Submit<span class="ri-send-plane-fill"></span></button>
+
+                </form>
+            </div>
+        </div>
+
+        <section id="home">
+            <div class="home">
+                <div id="left-side">
+                    <p>Hello, It's me</p>
+                    <h1>Amit Kumar</h1>
+                    <h2>Full Stack Developer</h2>
+                    <p>Proficient in JAVA, C, C++, and Oracle. Passionate about implementing and launching new projects.
+                        Ability to translate business requirements into technical solutions.</p>
+                    <div id="social-links">
+                        <a href="https://wa.me/7561900207?text=Hello Amit" target="_blank"><i
+                                class="ri-whatsapp-line"></i></a>
+                        <a href="https://github.com/codewithamith" target="_blank"><i class="ri-github-line"
+                                target="_blank"></i></a>
+                        <a href="https://www.linkedin.com/in/amit-kumar-946147227" target="_blank"><i
+                                class="ri-linkedin-box-line"></i></a>
+                        <a href="mailto:hellojavadeveloper@gmail.com" target="_blank"><i class="ri-mail-line"></i></a>
+                    </div>
+
+                    <div id="btn-container">
+                        <a href="images/amit-resume.pdf" target="_blank" id="btn">Download Cv <i
+                                class="ri-download-2-line"></i></a>
+                        <a href="#contact" id="btn">Get in Touch <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+                <div id="right-side">
+                    <img src="images/001.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div id="inner-content">
+                <h2>My Projects</h2>
+                <div id="project-details">
+                    <div id="card">
+                        <div id="img-container">
+                            <img src="images/Calculator.png" alt="img">
+                        </div>
+                        <div id="card-text">
+                            <h3>Calculator App</h3>
+                            <p id="descpt">Description : Our Java calculator app offers a user-friendly interface for basic and advanced mathematical operations. It provides accurate calculations, including standard arithmetic functions.</p>
+                            <p><strong>Technology :</strong> Java</p>
+                            <p><strong>Role :</strong> Whole development</p>
+                            <div id="card-btn">
+                                <a href="https://github.com/codewithamith/calculator" target="_blank"><i
+                                        class="ri-code-s-slash-line"></i> Source Code</a>
+                                <a href="#" target="_blank"><i class="ri-eye-line"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card">
+                        <div id="img-container">
+                            <img src="images/project-img.png" alt="img">
+                        </div>
+                        <div id="card-text">
+                            <h3>Project Title</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium alias in
+                                perspiciatis.</p>
+                            <div id="card-btn">
+                                <a href="#"><i class="ri-code-s-slash-line"></i> Source Code</a>
+                                <a href="#"><i class="ri-eye-line"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card">
+                        <div id="img-container">
+                            <img src="images/project-img.png" alt="img">
+                        </div>
+                        <div id="card-text">
+                            <h3>Project Title</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium alias in
+                                perspiciatis.</p>
+                            <div id="card-btn">
+                                <a href="#"><i class="ri-code-s-slash-line"></i> Source Code</a>
+                                <a href="#"><i class="ri-eye-line"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card">
+                        <div id="img-container">
+                            <img src="images/project-img.png" alt="img">
+                        </div>
+                        <div id="card-text">
+                            <h3>Project Title</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium alias in
+                                perspiciatis.</p>
+                            <div id="card-btn">
+                                <a href="#"><i class="ri-code-s-slash-line"></i> Source Code</a>
+                                <a href="#"><i class="ri-eye-line"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div id="inner-content">
+                <h2>About Me</h2>
+
+                <div id="abt-myself">
+                    <div id="about-text">
+                        <h3>Hello, I'm Amit Kumar,</h3>
+                        <p>Proficient in JAVA, C, C++, and Oracle. Passionate about implementing and launching new
+                            projects.
+                            Ability to translate business requirements into technical solutions. Looking to start the
+                            career
+                            as an entry-level software engineer with a reputed firm driven by technology.</p>
+                        <p><strong>Date of Birth :</strong> 05/02/1999</p>
+                        <p><strong>Qualification :</strong> MCA</p>
+                        <p><strong>Languages Known :</strong> Hindi, English</p>
+                        <p><strong>Projects Completed :</strong> 04+</p>
+                    </div>
+                    <div id="education">
+                        <h1>Education</h1>
+                        <p>I have completed Bachelor & Master Degree in Computer Science from Magadh Univesity, Bodh
+                            Gaya (Bihar). During my time there, I gained valuable experience in front-end development,
+                            as well as owned my problem-solving skills through various coding projects and coursework.
+                        </p>
+
+                        <!-- <h4>Matric - BSEB Patna</h4>
+                        <p>Result - 61%</p>
+                        <h4>I.Sc (Math) - BSEB Patna</h4>
+                        <p>Result - 61%</p> -->
+
+                        <h4>BCA - Bachelor in Computer Application </h4>
+                        <p>Result - 76.6% | Session : (2017-20)</p>
+
+                        <h4>MCA : Master of Computer Application</h4>
+                        <p>Result - Appearing | Session : (2020-22)</p>
+                    </div>
+                </div>
+
+                <div id="skills">
+                    
+                    <h2>My Skills</h2>
+                    <div id="skill-label">
+                        <img src="images/html5.png" alt="">
+                        <img src="images/css.png" alt="">
+                        <img src="images/javascript.png" alt="">
+                        <img src="images/c.png" alt="">
+                        <img src="images/Oracle-1.jpg" alt="">
+                        <img src="images/cpp.png" alt="">
+                        <img src="images/java.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div id="inner-content">
+                <h2>Contact Me</h2>
+
+                <div id="contact-box">
+                    <div id="contact-info">
+                        <div id="infocard">
+                            <h2>Contact Info</h2>
+                            <ul>
+                                <li><i class="ri-mail-fill"></i>hellojavadeveloper@gmail.com</li>
+                                <li><i class="ri-phone-fill"></i>+91 7561 9002 07</li>
+                                <li><i class="ri-whatsapp-fill"></i>+91 7561 9002 07</li>
+                                <li><i class="ri-map-pin-fill"></i>Ameerpet, Hyderabad - 500038, INDIA.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="contact-form">
+                        <form action="https://formspree.io/f/mjvqqzoz" method="POST">
+
+                            <input type="text" id="name" name="name" placeholder="Name">
+                            <input type="text" name="email" id="email" placeholder="Email">
+                            <input type="text" name="company" id="company" placeholder="Company's name">
+                            <textarea name="message" id="message" cols="48" rows="6" placeholder="Message"></textarea>
+                            <button type="submit" id="send">Submit<span class="ri-send-plane-fill"></span></button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+<hr>
+        <div id="footer">
+           Last Updated : 03/12/2024
+        </div>
+
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
