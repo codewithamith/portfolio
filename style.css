@@ -256,6 +256,7 @@ section
     gap: 20px;
     padding: 20px 0px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #contact-box{
