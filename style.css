@@ -86,16 +86,16 @@ nav{
 }
 #main-menu ol li{
   margin-right: 2.5rem;
-  list-style-type: decimal;
+  list-style-type: none;
 }
 #main-menu ol li>a{
     color: #080808;
     font-size: 18px;
 }
-#main-menu ol li::marker{
+/* #main-menu ol li::marker{
     color: #ff0000;
     font-size: 18px;
-}
+} */
 #action-btn{
     padding: 8px 16px;
     font-size: 18px;
